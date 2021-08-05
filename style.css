@@ -1,0 +1,169 @@
+
+.main{
+    width: 95%;
+    margin: auto;overflow: hidden;
+}
+.bluetext{
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.menu_bar ul{
+    margin: 20px;
+    padding: 5px;   
+    display: block;
+
+    
+}
+.menu_bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* header */
+.header_area{
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+    left: 30%;
+}
+
+.image-area{
+    top: auto;
+}
+
+.text_area{
+    position: absolute;
+    top: 30%;
+    left:-30%;
+    overflow: hidden;
+    z-index: 99;
+}
+.image-area img{
+    height: 350px;
+    width: auto;
+}
+.high-lighted-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* wellcome text */
+.wellcome-text{
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 35px;
+    color: gray;
+    margin-bottom: 30px;
+}
+/* boating area */
+.boating_area img{
+    width: 100%;
+
+}
+.boating_area{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.left_boat{
+    width: 45%;
+    float: left;
+}
+
+.right_boat{
+    width: 45%;
+    float: left;
+    position: absolute;
+    top:35px;
+    left:40%;
+}
+.left_boat >.boat_text{
+    text-align: left;
+    width: 80%;
+}
+
+
+/* surfboards_area area */
+.surfboards_area{
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+}
+.single_boat{
+    width: 31%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+.boat_details{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    text-align: left;
+}
+.buy_button{
+    border: none;
+    font-size: 25px;
+    background-color: darkgoldenrod;
+    padding: 5px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.surf_training_area{
+    overflow: hidden;
+    margin: 30px 0;
+}
+.surf_text{
+    width: 35%;
+    float: left;
+    
+}
+.surf_img{
+    width: 65%;
+    float: left;
+    height: auto;
+}
+.surf_img img{
+    width: 90%;
+    margin: auto;
+}
+.read_more_button{
+    text-decoration-color: 8DC2F4;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+.join_club_area{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.E_mail{
+    width: 50%;
+    padding: auto;
+}
+.submit_button{
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+    background-color: turquoise;
+    border-radius: 15%;
+    border: none;
+}
+.get_in_touch_btn{
+    color: #86BCF2;
+    text-transform: uppercase;
+
+}
+.get_in_touch{
+    overflow: hidden;margin-bottom: 35px;
+}
+.footer{
+    text-align: center;
+}
